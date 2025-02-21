@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from '../Navbar'
 import Content from '../Content'
-import Footer from '../footer'
 import Ourvalues from '../Pages/Ourvalues'
 import Industriesweserve from '../Pages/Industriesweserve'
 import Contactus from '../Pages/Contactus'
 import OurServices from '../Pages/OurServices'
+import Technology from '../Pages/Technology'
 
 const home = () => {
   return (
@@ -14,9 +14,9 @@ const home = () => {
     <Content/>
     <Industriesweserve/>
     <Ourvalues/>
+    <Technology/>
     <OurServices/>
     <Contactus/>
-    <Footer/>
     </>
   )
 }
